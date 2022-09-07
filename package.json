@@ -1,0 +1,9 @@
+{
+  "name": "web-scraping-demo",
+  "packageManager": "yarn@3.2.3",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "firebase-admin": "^11.0.1"
+  }
+}
