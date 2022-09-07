@@ -1,9 +1,17 @@
 {
   "name": "web-scraping-demo",
   "packageManager": "yarn@3.2.3",
+  "scripts": {
+    "start:pm": "pm2 start src/app.js",
+    "stop:pm": "pm2 stop src/app.js",
+    "monit": "pm2 monit",
+    "start": "node src/app.js"
+  },
   "dependencies": {
     "axios": "^0.27.2",
     "cheerio": "^1.0.0-rc.12",
+    "crawler": "^1.3.0",
+    "dotenv": "^16.0.2",
     "firebase-admin": "^11.0.1"
   }
 }
